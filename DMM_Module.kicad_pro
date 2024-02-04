@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMM_Board.kicad_pro",
+    "filename": "DMM_Module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -444,7 +444,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "page_sesa.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -470,7 +470,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "page_sesa.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -484,10 +484,23 @@
     [
       "b3f993c3-1966-49ed-ad69-98ff713d15d5",
       ""
+    ],
+    [
+      "022f9d20-4e59-4748-8eac-9224ddae6c41",
+      "Interface"
+    ],
+    [
+      "ae605e4b-935c-4ea5-aaa1-e25f9fa1c030",
+      "DMM DAQ"
+    ],
+    [
+      "0095a40f-579d-4b0e-95e8-5fdd46ee20e8",
+      "Power"
     ]
   ],
   "text_variables": {
     "PART_NAME": "DMM Module",
-    "PART_NUMBER": "BTS76393929A"
+    "PART_NUMBER": "BTS76393929A",
+    "PART_VERSION": "01"
   }
 }
