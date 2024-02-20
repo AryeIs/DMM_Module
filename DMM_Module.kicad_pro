@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_issues|167483289|53653201|fc8ba224-8084-4830-a925-cf9811766ea6|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -503,7 +505,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DMM_Module.step",
       "vrml": ""
     },
     "page_layout_descr_file": "page_sesa.kicad_wks"

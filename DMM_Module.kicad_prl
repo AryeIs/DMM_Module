@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 41,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -23,7 +23,7 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": false,
+      "tracks": true,
       "vias": false,
       "zones": false
     },
@@ -71,31 +71,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "DMM_Module.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 1062,
-          "pos_y": 195,
-          "size_x": 2045,
-          "size_y": 1126
-        }
-      },
-      {
-        "name": "DMM_Module.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 331,
-          "pos_y": 132,
-          "size_x": 1640,
-          "size_y": 1099
-        }
-      }
-    ]
+    "files": []
   }
 }
