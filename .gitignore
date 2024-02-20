@@ -35,3 +35,4 @@ gerber*/*
 *.step
 #*.zip
 *.lck
+*.kicad_prl
