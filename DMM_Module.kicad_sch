@@ -1,424 +1,1085 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid b3f993c3-1966-49ed-ad69-98ff713d15d5)
-
-  (paper "USLetter")
-
-  (title_block
-    (title "${PART_NAME}")
-    (date "2024-01-20")
-    (rev "A")
-    (company "Sesa Design Inc")
-    (comment 1 "${PART_NUMBER}")
-    (comment 2 "01")
-  )
-
-  (lib_symbols
-    (symbol "sesa_mech:mh_m2.5np" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "MH" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "M2.5NP" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at -1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "mounting hole M2.5" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "mh_m2.5np_0_1"
-        (circle (center 0 0) (radius 0.635)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 91.44 82.55) (xy 116.84 82.55))
-    (stroke (width 0) (type default))
-    (uuid 0fca81c4-9773-4d92-b5c9-0f3530442840)
-  )
-  (wire (pts (xy 137.16 71.12) (xy 162.56 71.12))
-    (stroke (width 0) (type default))
-    (uuid 286131f2-f834-40ad-a920-1a3400c39920)
-  )
-  (wire (pts (xy 137.16 58.42) (xy 162.56 58.42))
-    (stroke (width 0) (type default))
-    (uuid 5cc23724-31a1-4187-8fe9-9e8b17614bcf)
-  )
-  (wire (pts (xy 137.16 53.34) (xy 162.56 53.34))
-    (stroke (width 0) (type default))
-    (uuid 7418fb3d-8bcd-45aa-b690-452c10c00287)
-  )
-  (wire (pts (xy 137.16 76.2) (xy 162.56 76.2))
-    (stroke (width 0) (type default))
-    (uuid 9e255cd4-bf7e-4e61-9ffd-ecfef8f5fa1e)
-  )
-  (wire (pts (xy 137.16 73.66) (xy 162.56 73.66))
-    (stroke (width 0) (type default))
-    (uuid b405315f-bae0-426b-bc15-363683b2f770)
-  )
-  (wire (pts (xy 91.44 80.01) (xy 116.84 80.01))
-    (stroke (width 0) (type default))
-    (uuid d1dbec17-eac9-4645-bb5c-a8727f1912fd)
-  )
-  (wire (pts (xy 137.16 55.88) (xy 162.56 55.88))
-    (stroke (width 0) (type default))
-    (uuid d5628e57-5447-4517-8fbe-fe9204534b95)
-  )
-  (wire (pts (xy 137.16 78.74) (xy 162.56 78.74))
-    (stroke (width 0) (type default))
-    (uuid d8f728bf-a633-4924-a0ac-89170c47ac48)
-  )
-
-  (label "SCL" (at 97.79 82.55 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 13e92b48-1c5a-4ac9-acf5-ba47ceacae68)
-  )
-  (label "MOSI" (at 143.51 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2b978f89-db26-4f40-aed8-ac10e19bd835)
-  )
-  (label "SCLK" (at 143.51 71.12 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 70afe16f-7dda-4458-94c5-3281a1c80b65)
-  )
-  (label "DMM_IN" (at 143.51 53.34 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 720ba508-6b4e-47a8-904b-9ad2041e1d2e)
-  )
-  (label "MISO" (at 143.51 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 7692d288-2056-4af9-89e7-309a84c3e7c7)
-  )
-  (label "FourWireCurr" (at 143.51 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 95e60dbb-cebf-40d6-a119-b9f71746085d)
-  )
-  (label "SDA" (at 97.79 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d1ecb492-834b-47c5-af90-5e23c6a5b544)
-  )
-  (label "~{CS}" (at 143.51 78.74 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e06a6349-e6a7-4f3c-b9f3-c627e9bf82a0)
-  )
-  (label "FourWireRet" (at 143.51 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid eb1c7517-c1d2-4d1d-8002-899e7c15da4b)
-  )
-
-  (symbol (lib_id "sesa_mech:mh_m2.5np") (at 53.34 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4968c3fc-20af-4c1f-a465-3feb47aa6635)
-    (property "Reference" "MH4" (at 55.88 191.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2.5" (at 55.88 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 52.07 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfg P/N" "" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Notes" "" (at 53.34 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
-          (reference "MH4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "sesa_mech:mh_m2.5np") (at 41.91 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bda4c28b-2139-491d-b095-1e3c591e654f)
-    (property "Reference" "MH3" (at 44.45 191.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2.5" (at 44.45 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 40.64 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfg P/N" "" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Notes" "" (at 41.91 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
-          (reference "MH3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "sesa_mech:mh_m2.5np") (at 17.78 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ca1c3fb8-7b1a-427d-90c1-231bc99cbef9)
-    (property "Reference" "MH1" (at 20.32 191.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2.5" (at 20.32 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 16.51 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfg P/N" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Notes" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFG PN" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFG NAME" "" (at 17.78 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
-          (reference "MH1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "sesa_mech:mh_m2.5np") (at 29.21 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e2924a8a-5b3e-40c0-a08c-52a347253fd2)
-    (property "Reference" "MH2" (at 31.75 191.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2.5" (at 31.75 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 27.94 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfg P/N" "" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Notes" "" (at 29.21 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
-          (reference "MH2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 72.39 41.91) (size 19.05 44.45)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0095a40f-579d-4b0e-95e8-5fdd46ee20e8)
-    (property "Sheetname" "Power" (at 76.2 46.99 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 72.39 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "SDA" bidirectional (at 91.44 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 502bd5d2-b998-461d-87ee-0ee28e1674df)
-    )
-    (pin "SCL" input (at 91.44 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid bd88250b-3ca2-4be3-89f2-fba9f6d286db)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 116.84 41.91) (size 20.32 44.45)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 022f9d20-4e59-4748-8eac-9224ddae6c41)
-    (property "Sheetname" "Interface" (at 118.11 46.99 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "interface.kicad_sch" (at 116.84 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "FourWireRet" output (at 137.16 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 6d19079d-507b-4c2e-9665-cb2f5c293db1)
-    )
-    (pin "FourWireCurr" input (at 137.16 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 08e2d4de-abd6-4158-acae-2833ca437a09)
-    )
-    (pin "DMM_IN" output (at 137.16 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1d72fb1f-d704-4a3f-8267-edd7569b2078)
-    )
-    (pin "SCL" input (at 116.84 82.55 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ff7ba071-c476-4d3a-8888-a407b856cb15)
-    )
-    (pin "SDA" bidirectional (at 116.84 80.01 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a9d04d71-95c0-4e8f-b2d5-12a364201cb5)
-    )
-    (pin "MOSI" output (at 137.16 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 59c201e7-43a8-46da-9098-77125f12e384)
-    )
-    (pin "SCLK" output (at 137.16 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3effcb7d-e94f-444a-809b-eb604ca34b72)
-    )
-    (pin "~{CS}" output (at 137.16 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f10e71a4-8e48-44ad-a315-6b9e6d020b5d)
-    )
-    (pin "MISO" input (at 137.16 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ef6179ee-814f-4080-a2bb-82440e93562d)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 162.56 41.91) (size 21.59 44.45)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ae605e4b-935c-4ea5-aaa1-e25f9fa1c030)
-    (property "Sheetname" "DMM DAQ" (at 163.83 46.99 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "dmm_daq.kicad_sch" (at 162.56 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "~{CS}" input (at 162.56 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 42abbb06-51c9-4eca-83a5-4ca49560ad00)
-    )
-    (pin "MISO" output (at 162.56 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5290b316-8969-42b3-8feb-0f26f8c97760)
-    )
-    (pin "SCLK" input (at 162.56 71.12 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 34124e7d-ba56-4ae8-95d8-812d4a1a06d4)
-    )
-    (pin "MOSI" input (at 162.56 73.66 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid adc9ea19-9a8c-4449-b370-6ead57caa21e)
-    )
-    (pin "FourWireRet" input (at 162.56 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f8a28237-aedc-4cd6-8275-ecd6aa745fad)
-    )
-    (pin "FourWireCurr" output (at 162.56 58.42 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9297152c-ec83-491a-a8dd-16cc37d73882)
-    )
-    (pin "DMM_IN" input (at 162.56 53.34 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6921d6ae-8be6-4b3d-984c-501400d91996)
-    )
-    (instances
-      (project "DMM_Module"
-        (path "/b3f993c3-1966-49ed-ad69-98ff713d15d5" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b3f993c3-1966-49ed-ad69-98ff713d15d5")
+	(paper "USLetter")
+	(title_block
+		(title "${PART_NAME}")
+		(date "2024-01-20")
+		(rev "A")
+		(company "Sesa Design Inc")
+		(comment 1 "${PART_NUMBER}")
+		(comment 2 "01")
+	)
+	(lib_symbols
+		(symbol "sesa_mech:mh_m2.5np"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MH"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M2.5NP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+				(at -1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "mounting hole M2.5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mh_m2.5np_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fca81c4-9773-4d92-b5c9-0f3530442840")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286131f2-f834-40ad-a920-1a3400c39920")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc23724-31a1-4187-8fe9-9e8b17614bcf")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 162.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7418fb3d-8bcd-45aa-b690-452c10c00287")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e255cd4-bf7e-4e61-9ffd-ecfef8f5fa1e")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b405315f-bae0-426b-bc15-363683b2f770")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dbec17-eac9-4645-bb5c-a8727f1912fd")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5628e57-5447-4517-8fbe-fe9204534b95")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f728bf-a633-4924-a0ac-89170c47ac48")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de69d833-d5f9-4099-96f1-9446c600e16f")
+	)
+	(label "5V_ISO"
+		(at 99.06 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0196d7de-1b5f-41aa-a5d0-113196ab3be4")
+	)
+	(label "SCL"
+		(at 97.79 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13e92b48-1c5a-4ac9-acf5-ba47ceacae68")
+	)
+	(label "MOSI"
+		(at 143.51 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b978f89-db26-4f40-aed8-ac10e19bd835")
+	)
+	(label "SCLK"
+		(at 143.51 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70afe16f-7dda-4458-94c5-3281a1c80b65")
+	)
+	(label "DMM_IN"
+		(at 143.51 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "720ba508-6b4e-47a8-904b-9ad2041e1d2e")
+	)
+	(label "MISO"
+		(at 143.51 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7692d288-2056-4af9-89e7-309a84c3e7c7")
+	)
+	(label "FourWireCurr"
+		(at 143.51 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95e60dbb-cebf-40d6-a119-b9f71746085d")
+	)
+	(label "SDA"
+		(at 97.79 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1ecb492-834b-47c5-af90-5e23c6a5b544")
+	)
+	(label "~{CS}"
+		(at 143.51 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e06a6349-e6a7-4f3c-b9f3-c627e9bf82a0")
+	)
+	(label "FourWireRet"
+		(at 143.51 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb1c7517-c1d2-4d1d-8002-899e7c15da4b")
+	)
+	(symbol
+		(lib_id "sesa_mech:mh_m2.5np")
+		(at 53.34 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4968c3fc-20af-4c1f-a465-3feb47aa6635")
+		(property "Reference" "MH4"
+			(at 55.88 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 55.88 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 52.07 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" ""
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sesa_mech:mh_m2.5np")
+		(at 41.91 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda4c28b-2139-491d-b095-1e3c591e654f")
+		(property "Reference" "MH3"
+			(at 44.45 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 40.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" ""
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(reference "MH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sesa_mech:mh_m2.5np")
+		(at 17.78 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca1c3fb8-7b1a-427d-90c1-231bc99cbef9")
+		(property "Reference" "MH1"
+			(at 20.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 20.32 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 16.51 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG NAME" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sesa_mech:mh_m2.5np")
+		(at 29.21 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2924a8a-5b3e-40c0-a08c-52a347253fd2")
+		(property "Reference" "MH2"
+			(at 31.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 27.94 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg P/N" ""
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 41.91)
+		(size 19.05 44.45)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0095a40f-579d-4b0e-95e8-5fdd46ee20e8")
+		(property "Sheetname" "Power"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 72.39 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "502bd5d2-b998-461d-87ee-0ee28e1674df")
+		)
+		(pin "SCL" input
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd88250b-3ca2-4be3-89f2-fba9f6d286db")
+		)
+		(pin "5V_ISO" output
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23417110-1feb-4a74-9735-16d79e8f75e2")
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 41.91)
+		(size 20.32 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "022f9d20-4e59-4748-8eac-9224ddae6c41")
+		(property "Sheetname" "Interface"
+			(at 116.84 40.5634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 116.84 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FourWireRet" output
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d19079d-507b-4c2e-9665-cb2f5c293db1")
+		)
+		(pin "FourWireCurr" input
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08e2d4de-abd6-4158-acae-2833ca437a09")
+		)
+		(pin "DMM_IN" output
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d72fb1f-d704-4a3f-8267-edd7569b2078")
+		)
+		(pin "SCL" input
+			(at 116.84 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff7ba071-c476-4d3a-8888-a407b856cb15")
+		)
+		(pin "SDA" bidirectional
+			(at 116.84 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9d04d71-95c0-4e8f-b2d5-12a364201cb5")
+		)
+		(pin "MOSI" output
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59c201e7-43a8-46da-9098-77125f12e384")
+		)
+		(pin "SCLK" output
+			(at 137.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3effcb7d-e94f-444a-809b-eb604ca34b72")
+		)
+		(pin "~{CS}" output
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f10e71a4-8e48-44ad-a315-6b9e6d020b5d")
+		)
+		(pin "MISO" input
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef6179ee-814f-4080-a2bb-82440e93562d")
+		)
+		(pin "5V_ISO" output
+			(at 116.84 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "209929bf-b491-45aa-bbde-3043a0b3bfb1")
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 41.91)
+		(size 21.59 44.45)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae605e4b-935c-4ea5-aaa1-e25f9fa1c030")
+		(property "Sheetname" "DMM DAQ"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dmm_daq.kicad_sch"
+			(at 162.56 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "~{CS}" input
+			(at 162.56 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42abbb06-51c9-4eca-83a5-4ca49560ad00")
+		)
+		(pin "MISO" output
+			(at 162.56 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5290b316-8969-42b3-8feb-0f26f8c97760")
+		)
+		(pin "SCLK" input
+			(at 162.56 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34124e7d-ba56-4ae8-95d8-812d4a1a06d4")
+		)
+		(pin "MOSI" input
+			(at 162.56 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adc9ea19-9a8c-4449-b370-6ead57caa21e")
+		)
+		(pin "FourWireRet" input
+			(at 162.56 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8a28237-aedc-4cd6-8275-ecd6aa745fad")
+		)
+		(pin "FourWireCurr" output
+			(at 162.56 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9297152c-ec83-491a-a8dd-16cc37d73882")
+		)
+		(pin "DMM_IN" input
+			(at 162.56 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6921d6ae-8be6-4b3d-984c-501400d91996")
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
