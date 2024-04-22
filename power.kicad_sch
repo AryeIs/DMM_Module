@@ -1775,118 +1775,6 @@
 				)
 			)
 		)
-		(symbol "sesa_old:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "sesa_optics:led_green_0603"
 			(pin_numbers hide)
 			(pin_names
@@ -2248,6 +2136,116 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "sesa_power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0.508 -1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.508) (xy -1.016 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
 					)
 				)
 			)
@@ -3403,7 +3401,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "33_4a_0603"
+			(property "Value" "33"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5975,7 +5973,7 @@
 		(uuid "f12f8e1c-bc79-49d2-b167-bea8dc99691f")
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 58.42 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6005,18 +6003,16 @@
 			(at 58.42 115.57 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 58.42 115.57 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6085,7 +6081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led smd 0603, green"
 			(at 97.79 139.7 0)
 			(effects
 				(font
@@ -6226,7 +6222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 125 mW"
 			(at 162.56 162.56 0)
 			(effects
 				(font
@@ -6322,7 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 100 mW, 1%"
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -6481,7 +6477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " MOSFET N-CHANNEL 20V, Vgss +/-8V, Vgs(th) 1V, Id 4A"
 			(at 171.45 161.29 0)
 			(effects
 				(font
@@ -6581,7 +6577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 66.04 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6611,18 +6607,16 @@
 			(at 66.04 115.57 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 66.04 115.57 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6647,7 +6641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 173.99 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6677,18 +6671,16 @@
 			(at 173.99 125.73 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 173.99 125.73 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6757,7 +6749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 125 mW"
 			(at 162.56 119.38 0)
 			(effects
 				(font
@@ -6915,7 +6907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 20V 1A SOD123FL"
 			(at 191.77 111.76 0)
 			(effects
 				(font
@@ -7120,7 +7112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 resistor network, star topology, bussed resistors, small US symbol"
 			(at 120.65 105.41 0)
 			(effects
 				(font
@@ -7373,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 20V 1A SOD123FL"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -7407,7 +7399,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 162.56 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7437,18 +7429,16 @@
 			(at 162.56 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 162.56 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7473,7 +7463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 95.25 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7503,18 +7493,16 @@
 			(at 95.25 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 95.25 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7602,7 +7590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 173.99 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7632,18 +7620,16 @@
 			(at 173.99 104.14 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 173.99 104.14 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7712,7 +7698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "non polar capacitor, 0603 case"
 			(at 152.4 49.53 0)
 			(effects
 				(font
@@ -7799,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "non polar capacitor, 0603 case"
 			(at 58.42 113.03 0)
 			(effects
 				(font
@@ -7997,7 +7983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO Voltage Regulators 200-mA, 18-V, ultra-low-IQ, low-dropout (LDO) voltage regulator with enable 5-SOT-23 -40 to 125"
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -8220,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led smd 0603, green"
 			(at 100.33 147.32 0)
 			(effects
 				(font
@@ -8254,7 +8240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 173.99 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8284,18 +8270,16 @@
 			(at 173.99 168.91 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 173.99 168.91 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8364,7 +8348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 125 mW"
 			(at 50.8 83.82 0)
 			(effects
 				(font
@@ -8523,7 +8507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 125 mW"
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -8701,7 +8685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 173.99 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8731,18 +8715,16 @@
 			(at 173.99 147.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 173.99 147.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8864,7 +8846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 162.56 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8894,18 +8876,16 @@
 			(at 162.56 130.81 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 162.56 130.81 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8974,7 +8954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 100 mW"
 			(at 135.89 40.64 0)
 			(effects
 				(font
@@ -9070,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 125 mW"
 			(at 162.56 140.97 0)
 			(effects
 				(font
@@ -9166,7 +9146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led smd 0603, green"
 			(at 95.25 132.08 0)
 			(effects
 				(font
@@ -9244,7 +9224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " MOSFET N-CHANNEL 20V, Vgss +/-8V, Vgs(th) 1V, Id 4A"
 			(at 171.45 139.7 0)
 			(effects
 				(font
@@ -9325,7 +9305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led smd 0603, green"
 			(at 102.87 154.94 0)
 			(effects
 				(font
@@ -9516,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " MOSFET N-CHANNEL 20V, Vgss +/-8V, Vgs(th) 1V, Id 4A"
 			(at 171.45 118.11 0)
 			(effects
 				(font
@@ -9553,7 +9533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 162.56 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9583,18 +9563,16 @@
 			(at 162.56 109.22 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 162.56 109.22 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9682,7 +9660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sesa_old:GND")
+		(lib_id "sesa_power:GND")
 		(at 162.56 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9712,18 +9690,16 @@
 			(at 162.56 152.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 162.56 152.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9791,7 +9767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 20V 1A SOD123FL"
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -9932,7 +9908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 165.1 33.02 0)
 			(effects
 				(font
@@ -10027,7 +10003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 20V 1A SOD123FL"
 			(at 191.77 154.94 0)
 			(effects
 				(font
@@ -10218,7 +10194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "non polar capacitor, 0603 case"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -10418,7 +10394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "non polar capacitor, 0603 case"
 			(at 210.82 49.53 0)
 			(effects
 				(font
@@ -10505,7 +10481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "non polar capacitor, 0603 case"
 			(at 102.87 46.99 0)
 			(effects
 				(font
@@ -10592,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "non polar capacitor, 0603 case"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -10679,7 +10655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " MOSFET N-CHANNEL 20V, Vgss +/-8V, Vgs(th) 1V, Id 4A"
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -10886,7 +10862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "resistor, 0603, 125 mW"
 			(at 162.56 97.79 0)
 			(effects
 				(font
