@@ -7466,10 +7466,6 @@
 		(uuid "5627d17f-13c1-4021-bbda-bd2f64014b97")
 	)
 	(no_connect
-		(at 237.49 146.05)
-		(uuid "67d270ed-c677-4c0d-be46-5276e9e9ef97")
-	)
-	(no_connect
 		(at 224.79 146.05)
 		(uuid "97af7534-3de8-4323-b23d-88186ace33a5")
 	)
@@ -7523,7 +7519,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 125.73) (xy 57.15 125.73)
+			(xy 46.99 125.73) (xy 63.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7633,7 +7629,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 57.15) (xy 90.17 57.15)
+			(xy 83.82 57.15) (xy 102.87 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7793,6 +7789,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 146.05) (xy 251.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2478ca12-319c-4936-8225-5dbd6fd69373")
+	)
+	(wire
+		(pts
 			(xy 109.22 95.25) (xy 109.22 92.71)
 		)
 		(stroke
@@ -7943,7 +7949,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 120.65) (xy 113.03 120.65)
+			(xy 93.98 120.65) (xy 113.03 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8103,7 +8109,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 107.95 129.54)
+			(xy 93.98 129.54) (xy 107.95 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8153,16 +8159,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 67.31) (xy 109.22 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57502305-2ef2-40d3-97b9-738d6913c870")
-	)
-	(wire
-		(pts
 			(xy 124.46 167.64) (xy 124.46 177.8)
 		)
 		(stroke
@@ -8190,6 +8186,16 @@
 			(type default)
 		)
 		(uuid "5dcd5313-fa70-409f-88f5-ff9749e6c7ae")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600ec46c-dee1-4c93-9756-3fcf71e3cd5a")
 	)
 	(wire
 		(pts
@@ -8343,7 +8349,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 125.73) (xy 57.15 129.54)
+			(xy 63.5 125.73) (xy 63.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8433,7 +8439,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 34.29) (xy 163.83 34.29)
+			(xy 109.22 34.29) (xy 163.83 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8523,7 +8529,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 123.19) (xy 81.28 123.19)
+			(xy 76.2 123.19) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8693,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 81.28 120.65)
+			(xy 76.2 120.65) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9113,7 +9119,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 57.15) (xy 163.83 57.15)
+			(xy 109.22 57.15) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9223,7 +9229,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 34.29) (xy 90.17 34.29)
+			(xy 83.82 34.29) (xy 102.87 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9263,7 +9269,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 129.54) (xy 81.28 129.54)
+			(xy 63.5 129.54) (xy 88.9 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9463,7 +9469,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 123.19) (xy 127 123.19)
+			(xy 80.01 67.31) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29d52f5-863b-4b71-b4f9-6346cb1b8d62")
+	)
+	(wire
+		(pts
+			(xy 93.98 123.19) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9548,7 +9564,7 @@
 		(uuid "1e1ce045-6034-4911-ad82-d203bf1dc114")
 	)
 	(label "I_Amp"
-		(at 93.98 129.54 0)
+		(at 100.33 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9581,7 +9597,7 @@
 		(uuid "29a3ff8e-abf2-4f08-ae61-24bc0db3c894")
 	)
 	(label "mVOhmCap"
-		(at 97.79 67.31 0)
+		(at 82.55 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9613,6 +9629,17 @@
 		)
 		(uuid "4e411ff3-7703-49d0-8917-c27e20ec3948")
 	)
+	(label "DMM_IN"
+		(at 240.03 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50067994-ab4f-49cc-bfde-7e2a814942fa")
+	)
 	(label "~{CS}"
 		(at 25.4 165.1 0)
 		(fields_autoplaced yes)
@@ -9625,7 +9652,7 @@
 		(uuid "92c6b77f-2dea-45b6-99b6-217faad19e64")
 	)
 	(label "I_uAmp"
-		(at 93.98 120.65 0)
+		(at 100.33 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9669,7 +9696,7 @@
 		(uuid "c247fac0-b3e5-4186-84a2-7d0396b08322")
 	)
 	(label "CurrentIn"
-		(at 16.51 125.73 0)
+		(at 13.97 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9713,7 +9740,7 @@
 		(uuid "ec819313-4941-430b-952b-b7c56db681a1")
 	)
 	(label "I_mAmp"
-		(at 93.98 123.19 0)
+		(at 100.33 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9806,6 +9833,252 @@
 			(justify right)
 		)
 		(uuid "e8f2cf68-fdc2-4aa8-a5df-d382520693c5")
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 93.98 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06ec00fd-9544-4c4a-93e3-2d122ceed0ae")
+		(property "Netclass" "HV"
+			(at 100.584 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 62.23 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c90693f-7407-4fb8-8ff2-340c7ade037c")
+		(property "Netclass" "HV"
+			(at 55.626 29.972 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 21.59 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25dbef14-a949-4728-8a7c-f9b2ce6fc476")
+		(property "Netclass" "HV"
+			(at 14.986 29.972 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 99.06 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46474f82-9bb1-4d9c-8a56-293bb63f4b1b")
+		(property "Netclass" "CURSNS_LO"
+			(at 104.394 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 99.06 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c181e60-808c-49be-af54-877005414150")
+		(property "Netclass" "CURSNS_HI"
+			(at 104.394 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 53.34 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5572504f-ad4d-4c2c-bd12-554b963a332c")
+		(property "Netclass" "CURSNS_LO"
+			(at 47.752 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 78.74 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b678277-05e1-4d01-b12d-e161ee98102a")
+		(property "Netclass" "CURSNS_LO"
+			(at 73.406 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 53.34 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efe37495-f62d-4e93-bbe1-cf42b72b6bdf")
+		(property "Netclass" "CURSNS_LO"
+			(at 58.674 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 27.94 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2be645d-5095-4b8d-94cf-13c1a06cdb1e")
+		(property "Netclass" "CURSNS_HI"
+			(at 22.606 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape dot)
+		(at 78.74 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5a2b4d9-93a2-49ef-b713-30e6e836007f")
+		(property "Netclass" "CURSNS_LO"
+			(at 84.074 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 93.98 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8de66a1-4841-44f9-9a90-4f2177659455")
+		(property "Netclass" "HV"
+			(at 87.376 29.972 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "res_0603:1M_01%")
@@ -10361,7 +10634,7 @@
 	(symbol
 		(lib_id "sesa_relay:G6K-2F-Y")
 		(at 227.33 147.32 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10466,7 +10739,7 @@
 			(project "DMM_Module"
 				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5/ae605e4b-935c-4ea5-aaa1-e25f9fa1c030"
 					(reference "K1")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -12150,7 +12423,7 @@
 	)
 	(symbol
 		(lib_id "sesa_fuse:2A_PPTC")
-		(at 83.82 129.54 0)
+		(at 91.44 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12158,7 +12431,7 @@
 		(dnp no)
 		(uuid "4427a01f-9481-4f49-88be-d4f039ef3c04")
 		(property "Reference" "F3"
-			(at 82.296 129.286 0)
+			(at 89.916 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12167,7 +12440,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 85.344 129.286 0)
+			(at 92.964 129.286 0)
 			(effects
 				(font
 					(size 1 1)
@@ -12176,7 +12449,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 83.82 133.096 0)
+			(at 91.44 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12185,7 +12458,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf"
-			(at 83.82 136.652 0)
+			(at 91.44 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12194,7 +12467,7 @@
 			)
 		)
 		(property "Description" "Fuse PPTC"
-			(at 83.82 138.938 0)
+			(at 91.44 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12203,7 +12476,7 @@
 			)
 		)
 		(property "MFG PN" "0ZCJ0200FF2C"
-			(at 83.82 131.318 0)
+			(at 91.44 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,7 +12485,7 @@
 			)
 		)
 		(property "MFG NAME" "Bel Fuse"
-			(at 83.82 134.874 0)
+			(at 91.44 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13138,7 +13411,7 @@
 		(lib_id "sesa_relay:G6K-2F-Y")
 		(at 35.56 35.56 0)
 		(mirror y)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13243,7 +13516,7 @@
 			(project "DMM_Module"
 				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5/ae605e4b-935c-4ea5-aaa1-e25f9fa1c030"
 					(reference "K1")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -13833,7 +14106,7 @@
 	)
 	(symbol
 		(lib_id "sesa_fuse:50mA_PPTC")
-		(at 83.82 120.65 0)
+		(at 91.44 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13841,7 +14114,7 @@
 		(dnp no)
 		(uuid "6e8356e5-77b3-4844-a366-d2a459e8970a")
 		(property "Reference" "F1"
-			(at 82.296 120.396 0)
+			(at 89.916 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13850,7 +14123,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 85.344 120.396 0)
+			(at 92.964 120.396 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13859,7 +14132,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 83.82 124.206 0)
+			(at 91.44 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13868,7 +14141,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf"
-			(at 83.82 127.762 0)
+			(at 91.44 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13877,7 +14150,7 @@
 			)
 		)
 		(property "Description" "Fuse PPTC"
-			(at 83.82 130.048 0)
+			(at 91.44 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13886,7 +14159,7 @@
 			)
 		)
 		(property "MFG PN" "0ZCJ0005FF2E"
-			(at 83.82 122.428 0)
+			(at 91.44 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13895,7 +14168,7 @@
 			)
 		)
 		(property "MFG NAME" "Bel Fuse"
-			(at 83.82 125.984 0)
+			(at 91.44 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,6 +14282,93 @@
 			(project "DMM_Module"
 				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5/ae605e4b-935c-4ea5-aaa1-e25f9fa1c030"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sesa_fuse:50mA_PPTC")
+		(at 100.33 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f97f437-bd4b-4630-8208-72c30eea74ae")
+		(property "Reference" "F4"
+			(at 98.806 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "50mA"
+			(at 101.854 67.056 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 100.33 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf"
+			(at 100.33 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse PPTC"
+			(at 100.33 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" "0ZCJ0005FF2E"
+			(at 100.33 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG NAME" "Bel Fuse"
+			(at 100.33 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d411f8e0-0f08-4054-9f61-b6984be97ed4")
+		)
+		(pin "1"
+			(uuid "02e5c31a-5790-433c-898f-61445be0b00c")
+		)
+		(instances
+			(project "DMM_Module"
+				(path "/b3f993c3-1966-49ed-ad69-98ff713d15d5/ae605e4b-935c-4ea5-aaa1-e25f9fa1c030"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -15546,7 +15906,7 @@
 	)
 	(symbol
 		(lib_id "sesa_fuse:500mA_PPTC")
-		(at 83.82 123.19 0)
+		(at 91.44 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15554,7 +15914,7 @@
 		(dnp no)
 		(uuid "9af7a619-0aa0-42df-9e05-e5df8b20a6ee")
 		(property "Reference" "F2"
-			(at 82.296 122.936 0)
+			(at 89.916 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15563,7 +15923,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 85.344 122.936 0)
+			(at 92.964 122.936 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15572,7 +15932,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 83.82 126.746 0)
+			(at 91.44 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15581,7 +15941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf"
-			(at 83.82 130.302 0)
+			(at 91.44 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15590,7 +15950,7 @@
 			)
 		)
 		(property "Description" "Fuse PPTC"
-			(at 83.82 132.588 0)
+			(at 91.44 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15599,7 +15959,7 @@
 			)
 		)
 		(property "MFG PN" "0ZCJ0050AF2E"
-			(at 83.82 124.968 0)
+			(at 91.44 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15608,7 +15968,7 @@
 			)
 		)
 		(property "MFG NAME" "Bel Fuse"
-			(at 83.82 128.524 0)
+			(at 91.44 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17495,7 +17855,7 @@
 	)
 	(symbol
 		(lib_id "cap_1206:5p6_HV")
-		(at 96.52 34.29 90)
+		(at 109.22 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17503,7 +17863,7 @@
 		(dnp no)
 		(uuid "e7d7e95e-c1cb-4f09-aa1d-7b4d4bbcefbb")
 		(property "Reference" "C1"
-			(at 92.71 34.036 90)
+			(at 105.41 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17512,7 +17872,7 @@
 			)
 		)
 		(property "Value" "5p6"
-			(at 94.234 34.036 90)
+			(at 106.934 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17521,7 +17881,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 107.188 33.274 0)
+			(at 119.888 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17530,7 +17890,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC1206CRNPOBBN5R6"
-			(at 101.854 32.258 0)
+			(at 114.554 32.258 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17539,7 +17899,7 @@
 			)
 		)
 		(property "Description" "NP cap,C0G, 5p6, 5%, 500Vdc,  1206 case"
-			(at 104.394 33.274 0)
+			(at 117.094 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,7 +17908,7 @@
 			)
 		)
 		(property "MFG PN" "CC1206CRNPOBBN5R6"
-			(at 99.822 34.544 0)
+			(at 112.522 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17557,7 +17917,7 @@
 			)
 		)
 		(property "MFG NAME" "Yageo"
-			(at 109.22 34.036 0)
+			(at 121.92 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +17926,7 @@
 			)
 		)
 		(property "Voltage" "500Vdc"
-			(at 96.774 35.306 90)
+			(at 109.474 35.306 90)
 			(effects
 				(font
 					(size 1 1)
@@ -17574,7 +17934,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 95.25 35.814 0)
+			(at 107.95 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18053,7 +18413,7 @@
 	)
 	(symbol
 		(lib_id "cap_1206:5p6_HV")
-		(at 96.52 57.15 90)
+		(at 109.22 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18061,7 +18421,7 @@
 		(dnp no)
 		(uuid "fec55d95-9da8-4539-882b-955365aa7f2d")
 		(property "Reference" "C3"
-			(at 92.71 56.896 90)
+			(at 105.41 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18070,7 +18430,7 @@
 			)
 		)
 		(property "Value" "5p6"
-			(at 94.234 56.896 90)
+			(at 106.934 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18079,7 +18439,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 107.188 56.134 0)
+			(at 119.888 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18088,7 +18448,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC1206CRNPOBBN5R6"
-			(at 101.854 55.118 0)
+			(at 114.554 55.118 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18097,7 +18457,7 @@
 			)
 		)
 		(property "Description" "NP cap,C0G, 5p6, 5%, 500Vdc,  1206 case"
-			(at 104.394 56.134 0)
+			(at 117.094 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18106,7 +18466,7 @@
 			)
 		)
 		(property "MFG PN" "CC1206CRNPOBBN5R6"
-			(at 99.822 57.404 0)
+			(at 112.522 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18475,7 @@
 			)
 		)
 		(property "MFG NAME" "Yageo"
-			(at 109.22 56.896 0)
+			(at 121.92 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18124,7 +18484,7 @@
 			)
 		)
 		(property "Voltage" "500Vdc"
-			(at 96.774 58.166 90)
+			(at 109.474 58.166 90)
 			(effects
 				(font
 					(size 1 1)
@@ -18132,7 +18492,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 95.25 58.674 0)
+			(at 107.95 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)

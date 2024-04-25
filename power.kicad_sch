@@ -8179,7 +8179,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "uA_mA"
+		(property "Value" "mA_uA"
 			(at 87.63 148.59 0)
 			(effects
 				(font
@@ -9278,7 +9278,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "umA_A"
+		(property "Value" "A_umA"
 			(at 87.63 156.21 0)
 			(effects
 				(font
