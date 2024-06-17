@@ -3319,7 +3319,7 @@
 				)
 			)
 		)
-		(symbol "res_1206:10M_HV"
+		(symbol "res_1206:10M_1kV"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -3353,7 +3353,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/68043/crma.pdf"
 				(at 7.366 -10.668 0)
 				(effects
 					(font
@@ -3362,7 +3362,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "resistor, 1206, 0.66W, 500V, 0.5%"
+			(property "Description" "resistor, 1206, 0.3W, 1kV, 0.5%"
 				(at 5.588 -6.604 0)
 				(effects
 					(font
@@ -3371,7 +3371,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG PN" "ERJ-P08D1004V"
+			(property "MFG PN" " CRMA1206AF10M0DKEF"
 				(at 5.334 -4.826 0)
 				(effects
 					(font
@@ -3380,7 +3380,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG NAME" "Panasonic"
+			(property "MFG NAME" "Vishay"
 				(at 5.334 -8.636 0)
 				(effects
 					(font
@@ -3397,8 +3397,8 @@
 					)
 				)
 			)
-			(property "Voltage" "500V"
-				(at 0.508 -0.762 0)
+			(property "Voltage" "1kV"
+				(at 1.016 -0.762 0)
 				(effects
 					(font
 						(size 1 1)
@@ -3423,7 +3423,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10M_HV_0_1"
+			(symbol "10M_1kV_0_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.048 0.762) (xy 4.064 -0.762) (xy 5.08 0.762) (xy 6.096 -0.762) (xy 7.112 0.762)
@@ -3449,7 +3449,7 @@
 					)
 				)
 			)
-			(symbol "10M_HV_1_1"
+			(symbol "10M_1kV_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -10808,7 +10808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "res_1206:10M_HV")
+		(lib_id "res_1206:10M_1kV")
 		(at 73.66 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10843,7 +10843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/68043/crma.pdf"
 			(at 81.026 44.958 0)
 			(effects
 				(font
@@ -10852,7 +10852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor, 1206, 0.66W, 500V, 0.5%"
+		(property "Description" "resistor, 1206, 0.3W, 1kV, 0.5%"
 			(at 79.248 40.894 0)
 			(effects
 				(font
@@ -10861,7 +10861,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "ERJ-P08D1004V"
+		(property "MFG PN" " CRMA1206AF10M0DKEF"
 			(at 78.994 39.116 0)
 			(effects
 				(font
@@ -10870,7 +10870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG NAME" "Panasonic"
+		(property "MFG NAME" "Vishay"
 			(at 78.994 42.926 0)
 			(effects
 				(font
@@ -10887,8 +10887,8 @@
 				)
 			)
 		)
-		(property "Voltage" "500V"
-			(at 74.168 35.052 0)
+		(property "Voltage" "1kV"
+			(at 74.676 35.052 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17751,7 +17751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "res_1206:10M_HV")
+		(lib_id "res_1206:10M_1kV")
 		(at 73.66 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17786,7 +17786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/68043/crma.pdf"
 			(at 81.026 65.278 0)
 			(effects
 				(font
@@ -17795,7 +17795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor, 1206, 0.66W, 500V, 0.5%"
+		(property "Description" "resistor, 1206, 0.3W, 1kV, 0.5%"
 			(at 79.248 61.214 0)
 			(effects
 				(font
@@ -17804,7 +17804,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "ERJ-P08D1004V"
+		(property "MFG PN" " CRMA1206AF10M0DKEF"
 			(at 78.994 59.436 0)
 			(effects
 				(font
@@ -17813,7 +17813,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG NAME" "Panasonic"
+		(property "MFG NAME" "Vishay"
 			(at 78.994 63.246 0)
 			(effects
 				(font
@@ -17830,7 +17830,7 @@
 				)
 			)
 		)
-		(property "Voltage" "500V"
+		(property "Voltage" "1kV"
 			(at 78.994 52.832 0)
 			(effects
 				(font
